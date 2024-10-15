@@ -23,10 +23,7 @@ const flatten = (array) => {
 
   for (let i = 0; i < array.length; i++) {
     if (Array.isArray(array[i])) {
-      let innerArray = array[i];
-      for (let j = 0; j < innerArray.length; j++) {
-        output.push(innerArray[j]);
-      }
+      output = output.concat(array[i]);
     } else {
       output.push(array[i]);
     }
