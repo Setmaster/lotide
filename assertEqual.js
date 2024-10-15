@@ -31,3 +31,4 @@ assertEqual([1, 2, 3], [1, 2, 3]);
 assertEqual([1, 2, 3], [3, 2, 1]);
 assertEqual([1, 2, 3], [1, 2, 3, 4]);
 assertEqual([1, 2, 3], [1, 2]);
+assertEqual([6,7], [6,7]);
