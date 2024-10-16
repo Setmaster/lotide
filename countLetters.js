@@ -8,7 +8,7 @@
 
 const countLetters = function (str) {
     let output = {};
-    str = str.replace(' ', '') //ignore spaces
+    str = str.replace(/ /g, '') //ignore spaces
     for (const char of str) {
         if (!output.hasOwnProperty(char)) {
             output[char] = 1;
@@ -19,7 +19,7 @@ const countLetters = function (str) {
     return output;
 };
 
-let result1 = countLetters("pota to");
+const result1 = countLetters("p ota to ");
 
 assertEqual(result1.p, 1);
 assertEqual(result1.o, 2);
