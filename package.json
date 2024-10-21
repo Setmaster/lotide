@@ -1,7 +1,10 @@
 {
-  "name": "lotide",
+  "name": "@se7dev/lotide",
   "version": "1.0.0",
   "main": "index.js.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "test": "test"
   },
