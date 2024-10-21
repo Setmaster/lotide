@@ -6,7 +6,7 @@ describe("#head", () => {
         assert.strictEqual(head([1, 2, 3]), 1);
     });
 
-    it("returns [Hello] for [Hello, Lighthouse, Labs]", () => {
+    it("returns Hello for [Hello, Lighthouse, Labs]", () => {
         assert.strictEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
     });
 
