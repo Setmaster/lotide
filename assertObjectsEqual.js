@@ -10,6 +10,8 @@ const assertObjectsEqual = function(actual, expected) {
   }
 };
 
+module.exports = assertObjectsEqual;
+
 const obj1 = {
   potato: "plant",
   classNumber: 430,

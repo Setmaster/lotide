@@ -1,6 +1,4 @@
-﻿const assertEqual = require("./assertEqual");
-
-const countLetters = function(str) {
+﻿const countLetters = function(str) {
   let output = {};
   str = str.replace(/ /g, ''); //ignore spaces
   for (const char of str) {
@@ -14,10 +12,3 @@ const countLetters = function(str) {
 };
 
 module.exports = countLetters;
-
-const result1 = countLetters("p ota to ");
-
-assertEqual(result1.p, 1);
-assertEqual(result1.o, 2);
-assertEqual(result1.t, 2);
-assertEqual(result1.a, 1);
