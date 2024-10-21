@@ -13,6 +13,8 @@ const countLetters = function(str) {
   return output;
 };
 
+module.exports = countLetters;
+
 const result1 = countLetters("p ota to ");
 
 assertEqual(result1.p, 1);

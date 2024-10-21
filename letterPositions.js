@@ -13,6 +13,8 @@ const letterPositions = function(sentence) {
   return results;
 };
 
+module.exports = letterPositions;
+
 const testInput1 = "hello";
 const expectedResult1 = { h: [ 0 ], e: [ 1 ], l: [ 2, 3 ], o: [ 4 ] };
 const result1 = letterPositions(testInput1);

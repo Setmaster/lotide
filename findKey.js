@@ -20,4 +20,6 @@ const result1 = findKey(
   (x) => x.stars === 2
 );
 
+module.exports = findKey;
+
 assertEqual(result1, "noma");
